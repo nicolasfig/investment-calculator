@@ -31,7 +31,7 @@ function App() {
     <>
       <Header />
       <UserInput onChangeInput={handleChange} input={userInput} />
-      {!inputIsValid && <p className="center">Please enter valid vales </p>}
+      {!inputIsValid && <p className="center">Please enter valid values</p>}
       {inputIsValid && <Results input={userInput} />}
     </>
   );
